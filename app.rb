@@ -13,8 +13,8 @@ class App < Sinatra::Base
     @coach = params[:coach]
     @point_guard = params[:point_guard]
     @shoot_guard = params[:shoot_guard]
-    @power_forf = params[:power_for]
-    @shoot_forf = params[:shoot_for]
+    @power_for = params[:power_for]
+    @shoot_for = params[:shoot_for]
     @cen = params[:cen]
     erb :team
   end
