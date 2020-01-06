@@ -9,10 +9,10 @@
  
   Team Name: <%= @name %>
   Coach: <%= @coach %>
-  Point Guard: <%=@pg %>
-  Power Forward: <%=@pf %>
-  Shooting Guard: <%=@sg %>
-  Small Forward: <%=@sf %>
+  Point Guard: <%=@point_guardg %>
+  Power Forward: <%=@power_forf %>
+  Shooting Guard: <%=@shoot_guard %>
+  Small Forward: <%=@small_for %>
   Center: <%=@c %>
    
 
@@ -21,3 +21,11 @@
 </html>
 
 
+ @name = params[:name]
+    @coach = params[:coach]
+    @point_guard = params[:point_guard]
+    @shoot_guardg = params[:shoot_guard]
+    @power_forf = params[:power_for]
+    @shoot_forf = params[:shoot_for]
+    @cen = params[:cen]
+    erb :team
